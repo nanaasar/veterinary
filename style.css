@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+nav a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #575757;
+}
+.container {
+    padding: 2rem;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+
+    bottom: 0;
+    width: 100%;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #218838;
+}
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.services {
+    background: #f1f1f1;
+    padding: 2rem;
+}
+.services h2 {
+    text-align: center;
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+.services li {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.bottom {
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
